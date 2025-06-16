@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- This is a representation of my work week in my internship at puxo digital -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    table {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10%;
+      zoom: 150%;
+    }
+    table,
+    th,
+    td {
+      border: 1px solid rgb(219, 213, 37);
+      border-collapse: collapse;
+      background-color: teal;
+    }
+    th,
+    td.special-cell {
+      font-size: large;
+      font-weight: bold;
+      background-color: rgb(89, 180, 149);
+    }
+    td.Delete_Left {
+      border-left: 0;
+    }
+    td.Delete_Right {
+      border-right: 0;
+    }
+    /*The Delete_Right and Delete_Left Classes are made in order for the bottom boxes to look good*/
+  </style>
+  <body style="background-color: black">
+    <table>
+      <thead>
+        <th>Hours/Days</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </thead>
+
+      <tbody align="center">
+        <tr>
+          <td class="special-cell">8.50</td>
+          <td colspan="5">Waking up</td>
+          <td colspan="2" rowspan="2">Sleep</td>
+        </tr>
+        <tr>
+          <td class="special-cell">8:50-9:00</td>
+          <td colspan="5">Breakfast</td>
+        </tr>
+        <tr>
+          <td class="special-cell">9:00-12:00</td>
+          <td colspan="5">Work</td>
+          <td colspan="2">Waking up</td>
+        </tr>
+        <tr>
+          <td class="special-cell">12:00-13:00</td>
+          <td colspan="5">Break</td>
+          <td colspan="2">Breakfast</td>
+        </tr>
+        <tr>
+          <td class="special-cell">13:00-18:00</td>
+          <td colspan="5">Work</td>
+          <td>Free time</td>
+          <td>Guitar playing</td>
+        </tr>
+        <tr>
+          <td class="special-cell">18:00-19:00</td>
+          <td colspan="7">Dinner</td>
+        </tr>
+        <tr>
+          <td class="special-cell">19:00-24:00</td>
+          <td colspan="5">Free time</td>
+          <td colspan="2">Online games</td>
+        </tr>
+        <tr>
+          <td class="special-cell">24:00-3:00</td>
+          <td class="Delete_Right" colspan="5" rowspan="2">Sleep</td>
+          <td>Free time</td>
+          <td class="Delete_Left" rowspan="2">Sleep</td>
+        </tr>
+        <tr>
+          <td class="special-cell">3:00-8:50</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

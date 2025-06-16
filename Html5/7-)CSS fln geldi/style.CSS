@@ -1,0 +1,24 @@
+body{
+    background-color: wheat;
+}
+p{
+    display: table-cell;
+    text-shadow: none;
+    text-transform: capitalize;/* uppercase  */  
+    letter-spacing: 1cm;       
+    word-spacing: 1px;
+    white-space: pre;
+}
+
+div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: red;
+    width:200px;
+    height: 200px;
+    padding:13px ;
+    border:10px solid aliceblue ;
+    
+    margin: 100px;
+}

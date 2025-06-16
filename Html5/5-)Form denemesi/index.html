@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form denioz</title>
+    <style>
+      #country {
+        width: 100px;
+      }
+      div {
+        margin: auto;
+        max-width: fit-content;
+        max-height: fit-content;
+      }
+      div.bigboy {
+        background-color: aqua;
+      }
+      div.biggerboy {
+        background-color: blue;
+        padding: 20px;
+      }
+      body {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="POST">
+      <div class="biggerboy">
+        <div class="bigboy">
+          <div>
+            <br /><br />
+            Name:&emsp;&emsp;&nbsp;<input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Please enter your name"
+            /><br />
+            <br />
+            Surname:&emsp;
+            <input
+              type="text"
+              name="surname"
+              id="surname"
+              placeholder="Please enter your surname"
+            /><br /><br />
+            Password: &emsp;<input
+              type="password"
+              name="password"
+              id="password"
+            />
+            <br /><br />
+          </div>
+          <div>Please select your gender:</div>
+          <div>
+            Male<input type="radio" name="gender" id="male" /> Female<input
+              type="radio"
+              name="gender"
+              id="female"
+            />
+            <br /><br />
+          </div>
+          <div>How old are you: <br /><br /></div>
+          <div>
+            &emsp; 0-13<input type="radio" name="age" id="teen" /> 13-25<input
+              type="radio"
+              name="age"
+              id="young"
+            />
+            25-45<input type="radio" name="age" id="average" /> 45-60<input
+              type="radio"
+              name="age"
+              id="elderly"
+            />
+            60-120<input type="radio" name="age" id="ded" /> &emsp;<br /><br />
+          </div>
+          <div>Please select your state: <br /><br /></div>
+          <div>
+            <select name="country" id="country">
+              <option value="empty"></option>
+              <option value="ohio">ohio</option>
+              <option value="vegas">vegas</option>
+              <option value="texas">texas</option>
+            </select>
+            <br /><br />
+          </div>
+          <div>
+            <input type="submit" value="send" />
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
