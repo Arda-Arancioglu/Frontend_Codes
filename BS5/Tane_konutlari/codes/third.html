@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/BS5/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="/BS5/Tane_konutlari/font.css">
+    <link rel="stylesheet" href="/BS5/Tane_konutlari/all.css">
+
+    <style>
+        .is-invalid {
+            border: 1px solid red !important;
+        }
+        </style>
+
+</head>
+<body>
+    
+    <section>
+        
+        <div class="container-fluid">
+                
+            <div class="row ">
+
+                <div class="col-12 col-lg-7 col-xl-8 m-0 p-0 ">
+
+                    <div class="row gx-0">
+
+                        <div class="col-12 position-relative me-0 pe-0" >
+
+                            <div class="left_top  text-center p-3 ea-bg"  >
+
+                                <img src="/BS5/Tane_konutlari/img/tane_konaklari_1.png" class="img-fluid cover pngLenght mt-1"  alt="">
+
+                            </div>
+
+                              <div class="carousel slide " id="carousel" data-bs-ride="carousel">
+                              
+                                <div class="carousel-inner position-relative " >
+                                    
+                                    <div class="carousel-item active" >
+
+                                        <img src="/BS5/Tane_konutlari/img/tane_image.jpg" class="img-fluid w-100  carousel_object "  alt="">
+
+                                    </div>
+
+                                    <div class="carousel-item">
+
+                                        <img src="/BS5/Tane_konutlari/img/slider-2.jpg"class="img-fluid w-100 carousel_object " alt="">
+
+                                    </div>
+
+                                    <div class="carousel-item">
+
+                                        <img src="/BS5/Tane_konutlari/img/tane_image.jpg" class="img-fluid w-100 carousel_object "alt="">
+
+                                    </div>
+
+                                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" ></span>
+                                        </button> -->
+
+                                    <div  class="position_of_buttons translate-middle-x height_of_buttons ">
+
+                                        <button class=" carousel_control_prev ea-bg me-2 no_border " type="button" data-bs-target="#carousel" data-bs-slide="prev">
+
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+
+                                                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+
+                                            </svg>
+
+                                        </button>
+
+                                        <button class=" carousel_control_prev ea-bg ms-2 no_border" type="button"data-bs-target="#carousel" data-bs-slide="next">
+
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+
+                                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+
+                                            </svg>
+
+                                        </button>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                          
+                        </div>
+
+                        <div class="col-12  justify-content-center text-center me-0 pe-0 height_of_tane">
+
+                            <div  >
+
+                                <p class="Fangira font_of_basak pt-3 pt-lg-5 p-0 m-0">Başakşehirde benzersiz bir</p>
+                                
+                            </div>
+
+                            <div class="position-relative " style="height: 50px;">
+
+                                <span class="BrandonMatthews position_of_tane translate-middle font_of_tane " >Tane!</span> 
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-lg-5 col-xl-4 " style="background-color: #EAEAEA;">
+                 
+                    <div class="row g-0 padding_of_row pt-0 height_of_row justify-content-center " >
+
+                        <div class="col-12 ms-0 mt-1 ps-0 mb-0 py-3  py-lg-0 text-center fs-1  min_width_bilgi align-content-center"  >
+
+                            <p class="Fangira font_of_bilgi m-0 p-0">Bilgi talep formu</p> 
+
+                        </div>
+
+                        <div class="col-12" style="height: fit-content; width: 100%;">
+                                   
+                            <form class="row" id="myForm" action="">
+
+                                <div class="col-12 height_of_input my-2">
+                                    <input type="text" name="" id="name" placeholder="Ad Soyad" class="w-100 mini_border">
+                                </div>
+                            
+                                <div class="col-12 height_of_input my-2 mini_border">
+                                    <input type="text" name="" id="phone" placeholder="Telefon" class="w-100 mini_border">
+                                </div>
+                            
+                                <div class="col-12 height_of_input my-2 mini_border">
+                                    <input type="text" name="" id="email" placeholder="E-posta" class="w-100 mini_border">
+                                </div>
+                            
+                                <div class="col-12 height_of_input my-2 mini_border">
+                                    <select name="" id="apartment_type" class="w-100">
+                                        <option value="">&nbsp Daire tipi</option>
+                                        <option value="daire1">daire1</option>
+                                        <option value="daire2">daire2</option>
+                                        <option value="daire3">daire3</option>
+                                        <option value="daire4">daire4</option>
+                                    </select>
+                                </div>
+                            
+                                <div class="col-12 my-2 height_of_input mini_border">
+                                    <textarea name="" id="message" placeholder="Mesajınız" class="w-100"></textarea>
+                                </div>
+                            
+                                
+                                <div class="col-12 mt-2 font_of_checkbox">
+                                    <input type="checkbox" id="check1" class=" me-1 form-check-input">
+                                    <label class="form-check-label" for="check1">Kişisel verilerin korunması kanunu uyarınca gerçekleştirilen bilgilendirmeyi okudum, onaylıyorum.</label>
+                                </div>
+
+                                <div class="col-12 mt-2 font_of_checkbox">
+                                    <input type="checkbox" id="check2" class="me-1 form-check-input">
+                                    <label class="form-check-label" for="check2">Kişisel verilerimin saklanmasına ve işlenmesine onayım vardır.</label>
+                                </div>
+
+                                <div class="col-12 my-2 font_of_checkbox">
+                                    <input type="checkbox" id="check3" class="me-1 form-check-input">
+                                    <label class="form-check-label" for="check3">Tarafıma ticari elektronik izin gönderilmesine onayım vardır.</label>
+                                </div>
+                            
+                                <div>
+                                    <button type="submit" class="sphere_borders my-4">Gönder</button>
+                                </div>
+                            
+                            </form>
+                            
+                            
+                            
+                            
+                            <div class="col-12 my-2 text-center " style="max-height: 63px;">
+
+                                <p class="Fangira font_of_satis m-0 p-0 h-75">Satış Ofisi</p>
+
+                            </div>  
+
+                            <div class="col-12 row mb-2">
+
+                                <div class="d-flex col-3  col-lg-2 mb-2 ps-0 justify-content-end" >
+                                    
+                                        <div class=" position-relative" style="background-color: white; height: 40px; width: 40px; border: solid white 1px; border-radius: 100%;">
+
+                                            <img src="/BS5/Tane_konutlari/img/telefon.svg" class="position-absolute top-50 start-50 translate-middle w-50 h-50" alt="">
+
+                                        </div>
+                                </div>
+                            
+                                <div class="col-9 col-lg-10 mb-2 align-content-center">
+
+                                    <span class="font_of_icons">+90 212 687 40 41</span>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 row mt-2 mt-md-0 mt-xxl-2">
+                                
+                                <div class="d-flex col-3  col-lg-2  mt-1 ps-0 justify-content-end" >
+
+                                    <div class=" position-relative" style="background-color: white; height: 40px; width: 40px; border: solid white 1px; border-radius: 100%;">
+
+                                        <img src="/BS5/Tane_konutlari/img/konum.svg" class="position-absolute top-50 start-50 translate-middle w-50 h-50" alt="">
+
+                                    </div>
+
+                                </div>
+                                
+                                <div class="col-9  col-lg-10 mt-md-0 mt-1 mt-xxl-1">
+
+                                    <span class="font_of_icons">Altınşehir Mh. Osmanlı Cd. No.59 K.1 Başakşehir-İstanbul-Türkiye</span>
+
+                                </div> 
+
+                            </div>
+                            
+                        </div>    
+                        
+                       </div>                    
+              
+                    <div class="col-12 pt-2 pb-5 mt-5 text-center">
+                            
+                        <img src="/BS5/Tane_konutlari/img/zafer_yapi_insaat.svg" class="get_small" alt="">
+                        
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            let isValid = true;
+            const inputs = this.querySelectorAll('input, select, textarea');
+
+            inputs.forEach(function(input) {
+                if (input.id !== 'check3') {
+                    if (input.type !== 'checkbox' && input.value.trim() === '') {
+                        input.classList.add('is-invalid');
+                        isValid = false;
+                    } else if (input.type === 'checkbox' && !input.checked) {
+                        input.classList.add('is-invalid');
+                        isValid = false;
+                    } else {
+                        input.classList.remove('is-invalid');
+                    }
+                }
+            });
+
+            if (!isValid) {
+                event.preventDefault();
+            }
+        });
+        document.querySelectorAll('input, select, textarea').forEach(function(input) {
+            input.addEventListener('input', function() {
+                if (this.type !== 'checkbox' && this.value.trim() !== '') {
+                    this.classList.remove('is-invalid');
+                }
+            });
+
+            input.addEventListener('change', function() {
+                if (this.type === 'checkbox' && this.checked) {
+                    this.classList.remove('is-invalid');
+                }
+            });
+        });
+        </script>
+
+ 
+        
+
+    <script src="/BS5/Js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,675 @@
+.position_of_tane{
+
+    position: relative;
+
+    top: -20px;
+
+    z-index: 10;
+    
+}
+
+.position_of_icons{
+
+    position: absolute;
+
+    top:25%;
+
+    left:50%;
+
+}
+
+.left_top{
+
+    position:absolute;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: 100;
+
+    width: 25%;
+
+} 
+
+.no_border{
+
+    border: 0;
+    
+}
+
+input[type=text]{
+
+    box-sizing: border-box;
+
+    outline: none;
+
+    border:3px solid #EAEAEA;
+
+}
+
+input[type=text]:focus {
+
+    border: 3px solid #D5D5D5;
+
+}
+
+select{
+
+    box-sizing: border-box;
+
+    outline: none;
+
+    border:3px solid #EAEAEA;
+
+}
+
+select:focus {
+
+    border: 3px solid #D5D5D5;
+
+}
+
+textarea{
+
+    box-sizing: border-box;
+
+    outline: none;
+
+    border:3px solid #EAEAEA;
+
+}
+
+textarea:focus {
+
+    border: 3px solid #D5D5D5;
+
+}
+
+.sphere_borders{
+
+    border: 0px;
+
+    border-radius: 28px;
+
+    height: 40px;
+
+    width: 100%;
+
+    background-color:#D8B15D ;
+
+    color: #fff;
+
+}
+
+.sphere_borders:hover{
+
+    border: solid #D8B15D 2px;
+
+    background-color: #fff;
+
+    color: #D8B15D;
+
+}
+
+.mini_border{
+
+    border: 0;
+
+    border-radius: 3px;
+
+}
+
+.whiteO{
+    
+    background-color: #fff;
+    
+    border: solid black 1px;
+    
+    border-radius: 100%;
+    
+    width: 100%;
+    
+    height:100%;
+
+}
+
+.zindex1{
+
+    z-index: 1;
+
+}
+
+.zindex2{
+
+    z-index: 1000;
+
+}
+
+.cover{
+
+    object-fit: cover;
+
+}
+
+.pngLenght{
+        
+    height: auto;
+
+    width: 80%;
+
+}
+
+.ea-bg{
+
+    background-color: #EAEAEA;
+
+}
+.d5-bg{
+
+    background-color: #D5D5D5;
+
+}
+
+.get_small{
+
+    width: 225px;
+
+}
+
+.position_of_buttons{
+
+    position: absolute;
+
+    bottom: 5%;
+
+    left: 50%;
+
+}
+
+.carousel_object{
+
+    height:100vh;
+
+    object-fit: cover;
+
+}
+
+.height_of_buttons button{
+
+    height: 70px;
+
+    width: 70px;
+
+
+}
+.height_of_input input{
+
+    color: black;
+
+    padding-left: 14px;
+    
+}
+.height_of_input input::placeholder{
+
+    color: black;
+
+    
+}
+.height_of_input textarea{
+
+    color:black;
+
+    padding-left: 13px;
+
+}
+.height_of_input textarea::placeholder{
+
+    color:black;
+
+}
+.padding_of_row{
+    padding: 0px 8px;
+}
+
+.margin_of_form{
+
+    margin: 12px 0 12px 0;
+}
+
+
+
+
+/* ALL HEIGHTS SHARE THESE MAX WIDTH */
+
+@media screen and (max-width:1450px) {
+
+    .get_small{
+
+       width:200px;
+
+   }
+   
+}
+
+@media screen and (max-width:1200px) {
+    
+    .left_top{
+
+        width: 30%;
+    
+    } 
+
+}
+
+@media screen and (max-width:1100px) {
+    
+    .left_top{
+
+        width: 35%;
+    
+    } 
+
+}
+
+@media screen and (max-width:991px) {
+
+    .height_of_buttons button{
+
+        height: 50px;
+    
+        width: 50px;
+    
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+
+    .position_of_icons{
+
+        position: absolute;
+
+        top:0;
+
+        left:-20px;
+
+    }
+ 
+}
+
+@media screen and (max-width:500px) {
+
+    .carousel_object{
+
+        height:30vh;
+
+        object-fit: cover;
+
+    }
+
+    .left_top{
+
+        position:relative;
+
+        top: 0;
+
+        left: 0;
+
+        z-index: 100;
+
+        width: 100%;
+
+        height: auto;
+
+    } 
+
+    .pngLenght{
+
+        height: auto;
+
+        width: 40%;
+
+    }
+
+    .height_of_buttons button{
+
+        height: 40px;
+    
+        width: 40px;
+    
+    }
+      
+}
+
+/* MEDIA CHECKING FOR HEIGHT */
+
+@media screen and (min-height:900px) {
+    
+    .height_of_input{
+
+        height: fit-content;
+
+    }
+
+    .height_of_input input{
+
+        height: 55px;
+
+    }
+
+    .height_of_input select{
+
+        height: 55px;
+
+    }
+
+    .height_of_input textarea{
+
+        min-height: 185px;
+
+    }
+
+    .height_of_row{
+
+        height: 100vh;
+
+    }
+       
+    .height_of_tane{
+
+        height: 315px;
+
+    }
+
+    .min_width_bilgi{
+
+        min-width: 370px;
+
+    }
+
+    @media screen and (max-width:1600px) {
+
+        .height_of_input textarea{
+
+            min-height: 120px;
+
+        }
+
+    }
+    
+    @media screen and (max-width:1500px) {
+ 
+        .height_of_input textarea{
+
+            min-height: 105px;
+
+        }
+
+    }
+
+    @media screen and (max-width:1400px) {
+        
+        .height_of_input textarea{
+
+            min-height: 90px;
+
+        }
+
+    }
+
+    @media screen and (max-width:1240px) {
+
+        .min_width_bilgi{
+
+            min-width: 350px;
+
+        }
+
+        .height_of_input textarea{
+
+            min-height: 70px;
+
+        }
+
+    }
+    
+    @media screen and (max-width:991px) {
+      
+        .height_of_row{
+
+            height: fit-content;
+
+        }
+
+        .height_of_tane{
+
+            height: 175px;
+
+        }
+        
+        .carousel_object{
+
+            height:40vh;
+
+            object-fit: cover;
+
+        }
+
+        .height_of_input textarea{
+
+            min-height: 160px;
+
+        }
+       
+    }
+    
+    @media screen and (max-width:580px) {
+
+        .height_of_tane{
+
+            height: 155px; 
+
+        }
+
+        .min_width_bilgi{
+
+            min-width: 0;
+
+        }
+        
+    }
+
+    @media screen and (max-width:430px) {
+
+        .height_of_tane{
+
+            height: 130px;   
+
+        }
+        
+    }
+
+    @media screen  and (max-width:360px){
+    
+        .height_of_tane{
+
+            height: 110px;
+
+        }
+
+    }
+
+}
+
+@media screen and (max-height:899px) {
+        
+    .height_of_input{
+
+        height: fit-content;
+
+    }
+
+    .height_of_input input{
+
+        height: 40px;
+
+    }
+
+    .height_of_input select{
+
+        height:40px;
+
+    }
+
+    .height_of_input textarea{
+
+        min-height: 85px;
+
+    }
+    
+    .height_of_row{
+
+        height: 100vh;
+
+    }
+    
+    .height_of_tane{
+
+        height: 315px;      
+        
+    }
+
+    .min_width_bilgi{
+
+        min-width: 370px;  
+
+    }
+  
+   
+
+    @media screen and (max-width:1600px) {
+
+        .height_of_input textarea{
+
+            min-height: 120px;
+
+        }
+
+    }
+    
+    @media screen and (max-width:1500px) {
+       
+        .height_of_input textarea{
+
+            min-height: 105px;
+
+        }
+
+    }
+
+    @media screen and (max-width:1400px) {
+    
+        .height_of_input textarea{
+
+            min-height: 90px;
+
+        }
+
+    }
+
+    @media screen and (max-width:1240px) {
+
+        .min_width_bilgi{
+
+            min-width: 350px;
+
+        }
+
+        .height_of_input textarea{
+
+            min-height: 70px;
+
+        }
+
+    }
+    
+    @media screen and (max-width:991px) {
+      
+        .height_of_row{
+
+            height: fit-content;
+
+        }
+
+        .height_of_tane{
+
+            height: 175px;
+
+        }
+       
+        .carousel_object{
+
+            height:40vh;
+
+             object-fit: cover;
+
+        }
+
+        .height_of_input textarea{
+
+            min-height: 160px;
+
+        }
+       
+
+    }
+        
+    @media screen and (max-width:580px) {
+
+        .height_of_tane{
+
+             height: 175px; 
+
+        }
+
+        .min_width_bilgi{
+
+            min-width: 0;
+
+        }
+        
+    }
+
+    @media screen and (max-width:430px) {
+
+        .height_of_tane{
+
+            height: 150px;
+
+        }
+       
+    }
+
+    @media screen  and (max-width:360px){
+    
+        .height_of_tane{
+
+            height: 120px;
+          
+        }
+
+    }
+
+}
+
+
+@media screen and (max-height:760px) {
+
+    .height_of_row{
+
+        height: fit-content;
+
+    }
+
+}

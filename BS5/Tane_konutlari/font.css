@@ -1,0 +1,328 @@
+/* @font-face {
+  font-family: BrandonMatthews;
+  src: url(font/font_of_tane/BrandonMatthews-qZ6o6.ttf);
+} */
+@font-face{
+  font-family: Crimson_regular;
+  src: url(font/crimson/CrimsonText-Regular.ttf);
+}
+
+@font-face{
+  font-family: BrandonMatthews;
+  src: url(font/font_of_tane/Brandon/Brandon\ Matthews.ttf);
+}
+
+/* @font-face {
+  font-family: Fangira;
+  src: url(font/font_of_tane/Fangira-Font/fangira.otf);
+} */
+/* @font-face {
+  font-family: Poppins-mid;
+  src: url(font/poppins/Poppins-Medium.ttf);
+} */
+@font-face {
+  font-family: Crimson_regular;
+  src: url(font/crimson/CrimsonText-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(font/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-medium;
+  src: url(font/Montserrat/static/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: Montserrat-bold;
+  src: url(font/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Playfair;
+  src: url(font/font_of_tane/Playfair/static/PlayfairDisplay-Regular.ttf);
+}
+
+
+.font_of_checkbox {
+  font-family: Montserrat;
+  font-size: 14px;
+  display: flex;
+}
+.font_of_icons {
+  /* font-family: Poppins-mid; */
+  font-family: Montserrat-medium;
+  font-size: 20px;
+}
+.font_of_basak{
+  font-family: Playfair;
+
+}
+.font_of_bilgi{
+  font-family: Playfair;
+
+}
+.font_of_tane{
+  font-family: BrandonMatthews;
+
+}
+.font_of_satis{
+  font-family: Playfair;
+}
+.height_of_input input::placeholder,textarea::placeholder,select option{
+
+  font-family: Montserrat;
+
+  
+}
+
+@media screen and (max-width:1200px) {
+
+  .font_of_checkbox {
+
+    font-size: 14px;
+
+  }
+
+}
+
+@media screen and (max-width:991px) {
+
+  .font_of_checkbox {
+
+    font-size: 14px;
+
+  }
+
+}
+
+@media screen and (max-height: 750px) {
+
+  .font_of_satis {
+    font-size: 18px !important;
+  }
+  .font_of_bilgi {
+    font-size: 22px !important;
+    /* font-size: 30px; */
+  }
+  
+ 
+
+  /*  */
+  @media screen and (max-width: 1240px) {
+    .font_of_bilgi {
+      font-size: 20px !important;
+      /* font-size: 30px; */
+    }
+    .font_of_satis {
+      font-size: 16px !important;
+    }
+
+  }
+
+
+  @media screen and (max-width: 991px) {
+    .font_of_bilgi {
+      font-size: 35px !important;
+      /* font-size: 30px; */
+    }
+    .font_of_satis {
+      font-size: 20px !important;
+    }
+ 
+  }
+
+  @media screen and (max-width: 580px) {
+
+    .font_of_bilgi {
+      font-size: 35px !important;
+      /* font-size: 30px; */
+
+    }
+  }
+
+
+}
+
+@media screen and (max-height: 899px) {
+  .font_of_tane {
+    /* font-size: 140px; */
+    font-size: 120px;
+  }
+  .font_of_basak {
+    /* font-size: 70px; */
+    font-size: 60px;
+  }
+  .font_of_satis {
+    font-size: 28px;
+  }
+  .font_of_bilgi {
+    font-size: 40px;
+    /* font-size: 30px; */
+  }
+  
+ 
+
+  /*  */
+  @media screen and (max-width: 1240px) {
+    .font_of_bilgi {
+      font-size: 35px;
+      /* font-size: 30px; */
+    }
+    .font_of_tane {
+      font-size: 100px;
+    }
+    .font_of_basak {
+      font-size: 50px;
+    }
+  }
+
+  @media screen and (max-width: 1190px) {
+    .font_of_tane {
+      font-size: 90px;
+    }
+    .font_of_basak {
+      font-size: 45px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .font_of_tane {
+      font-size: 85px;
+    }
+    .font_of_basak {
+      font-size: 40px;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .font_of_bilgi {
+      font-size: 35px;
+      /* font-size: 30px; */
+    }
+    .font_of_tane {
+      font-size: 75px;
+    }
+   
+  }
+
+  @media screen and (max-width: 580px) {
+    .font_of_tane {
+      font-size: 65px;
+    }
+    .font_of_basak {
+      font-size: 35px;
+    }
+    .font_of_bilgi {
+      font-size: 35px;
+      /* font-size: 30px; */
+
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    .font_of_tane {
+      font-size: 65px;
+    }
+    .font_of_basak {
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .font_of_tane {
+      font-size: 50px;
+    }
+    .font_of_basak {
+      font-size: 25px;
+    }
+  }
+}
+
+@media screen and (min-height: 900px) {
+  .font_of_tane {
+    /* font-size: 140px; */
+    font-size: 120px;
+  }
+  .font_of_basak {
+    /* font-size: 70px; */
+    font-size: 60px;
+  }
+  .font_of_satis {
+    font-size: 40px;
+  }
+  .font_of_bilgi {
+    font-size: 45px;
+  }
+ 
+  
+  
+
+  @media screen and (max-width: 1240px) {
+    .font_of_bilgi {
+      font-size: 45px;
+    }
+    .font_of_tane {
+      font-size: 120px;
+    }
+    .font_of_basak {
+      font-size: 60px;
+    }
+    
+  }
+
+  @media screen and (max-width: 1190px) {
+    .font_of_tane {
+      font-size: 110px;
+    }
+    .font_of_basak {
+      font-size: 50px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .font_of_tane {
+      font-size: 95px;
+    }
+    .font_of_basak {
+      font-size: 45px;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .font_of_bilgi {
+      font-size: 45px;
+    }
+    .font_of_tane {
+      font-size: 70px;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .font_of_tane {
+      font-size: 65px;
+    }
+    .font_of_basak {
+      font-size: 35px;
+    }
+    .font_of_bilgi {
+      font-size: 35px;
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    .font_of_tane {
+      font-size: 60px;
+    }
+    .font_of_basak {
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .font_of_tane {
+      font-size: 45px;
+    }
+    .font_of_basak {
+      font-size: 25px;
+    }
+  }
+}

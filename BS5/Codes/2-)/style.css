@@ -1,0 +1,33 @@
+.myHeight{
+    height: 450px;
+}
+.big_text{
+    height: 100px;
+   
+    overflow:auto;
+}
+
+@media screen and(min-width:280px) {
+
+    .myHeight{
+    height: 100px;
+}
+}
+@media screen and(min-width:780px) {
+
+    .myHeight{
+    height: 100px;
+}
+.big_text{
+        
+    height: 600px;
+  overflow: auto;
+}
+}
+@media screen and (min-width:1200px){
+    .big_text{
+        
+        height: 300px;
+      overflow: auto;
+    }
+} 

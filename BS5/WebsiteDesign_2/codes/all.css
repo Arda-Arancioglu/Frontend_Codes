@@ -1,0 +1,578 @@
+@font-face {
+    font-family: camptonlight;
+    src: url(/BS5/WebsiteDesign_2/font/campton/CamptonLight.otf);
+  }
+  @font-face {
+    font-family: mediumcampton;
+    src: url(/BS5/WebsiteDesign_2/font/campton/CamptonMedium.otf);
+  }  
+/* body{
+    font-family: mediumcampton;
+    font-weight: 200;
+} */
+.kvkk_font{
+
+    font-family: camptonlight ;
+} 
+.camptonhafif{
+    font-family: camptonlight;
+        
+}
+.camptonmedium{
+    font-family: mediumcampton;
+}
+div .camptonmedium a{
+    font-family: mediumcampton;
+}
+.camptonhafif ul li a{
+    color: #6c757d;
+    font-weight: 200;
+}
+.tab_font{
+font-size: 16px;
+font-family: comptonhafif;
+}
+body h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.brand-text-location{
+position: absolute;
+bottom: 10px;
+font-size: 35px;
+font-weight: 100;
+color: darkblue;
+left: 300px;
+}
+.family{
+width: 100%;
+}
+.orta{
+    position:  absolute;
+
+    left:70% ;
+    top: 80%;
+    font-size: 20px;
+    background-color: #866F6A;
+    
+}
+.z-indeksi{
+    position: relative;
+    z-index: -1;
+}
+.bigfont{
+    
+    font-size: 40px;
+  
+}
+.parmakwidth{
+    width: 600px;
+}
+
+.position_of_text{
+    background-color: rgba(26, 66, 138, 0.6);
+   
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 100%;
+    height: 40%;
+
+}
+
+.paragraf{
+    font-size: 20px;
+    font-weight: bolder;
+    }
+.big_image{
+    object-fit: cover;
+    height: 30vw;
+    width: 100vw;
+}
+.index-form input{
+    width: 99%;
+}
+.index-form textarea{
+    width: 99%;
+    min-height: 80px;
+}
+.index-form div input::placeholder{
+font-weight: 100;
+color: black;
+font-family: camptonlight;
+}
+
+.index-form div textarea::placeholder{
+    font-weight: 100;
+    color: black;
+    font-family: camptonlight;
+    }
+.index-form div{
+    padding: 6px 12px;
+}
+
+.cheklist{
+      min-width: 1.5rem;
+}
+.contains_checkbox{
+    min-width: 1.5rem;
+    min-height: 1rem;
+    flex: 0 0 auto;
+    display: block;
+}
+
+.sektor_col {
+    
+    min-height: 375px;
+    max-height: 375px;
+}
+.sektor_col img{
+    width: 70%;
+    margin-bottom: 10px;
+}
+.sektor_col:hover :first-child{
+    
+    width: 90%;
+    margin-bottom: 15px;
+
+}
+
+.table-sen{
+    margin: 50px 30px 30px 0px ;
+}
+
+
+
+.kurumsal_yerlestirme{
+position: absolute;
+top:80%;
+left:50%;
+z-index: 1;    
+height: 20%;
+
+background-color: rgba(26, 66, 138, 1);
+}
+.imaj{
+    width: 100%;
+    max-height: 320px;
+    min-height: 200px;
+    object-fit: cover;
+}
+.myButton{
+    position: fixed;
+    width: 250px;
+    height: 80px;
+    top: 50%;
+    right: -88px;
+    font-size: 30px;
+    transform: rotate(270deg) ;
+    z-index: 15;
+    background-color: rgba(26, 66, 138, 1);
+}
+.the_colour{
+    background-color: rgba(26, 66, 138, 1);
+
+}
+.iletisim_paragraf{
+    font-size: 16px;
+    font-family: camptonlight;
+}
+.iletisim_paragraf_b{
+    font-size: 24px;
+    font-family: camptonlight;
+}
+
+
+
+.full_height input{
+    height: 100%;
+}
+.toplumsal_paragraf h3{
+    font-size: 26px;
+}
+.toplumsal_paragraf p{
+    font-size: 20px;
+}
+
+.navigator{
+    min-height: 100px;
+}
+.qbutton:hover{
+    color: #1A428A;
+    background-color: #FFF;
+    border: 1px solid #1A428A;
+    transition: width 0.5s ease;
+}    
+.qbutton{
+    color: #FFF;
+    background-color:#1A428A;
+    border: 0;
+}   
+.rbutton{
+    color:#FFF;
+   background-color: #1A428A;
+    border:solid white 1px;
+}
+.rbutton:hover{
+    background-color: #FFF;
+    color: #1A428A;
+    
+}
+.font16{
+    font-size: 16px;
+}
+.font12{
+    font-size: 12px;
+}
+.button_colour{
+    color: #FFF;
+    background-color: #607cae;
+}
+.no_border{
+    border: 0;
+}
+div ::placeholder{
+    padding-left: 2px;
+    color: #d5d4d4dc;
+}
+.section-iletisim{
+    padding: 50px ;
+    margin-top: 30px;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+.logo{
+    max-width: 300px;
+   
+}
+.DortBuyukHeight{
+    height:38% ;
+}
+.ProjeGelHeight{
+    height: 38%;
+}
+.form-bg{
+    background-color: #f0f0f0;
+    height: 40px;
+}
+
+
+.incHeight{
+    min-height: 300px;
+    min-width:400px
+}
+
+    @media screen and (max-width:1300px) {
+        
+    
+            .orta{
+    
+                font-size: 18px;
+        
+            }
+            .position_of_text{
+
+                position: absolute;
+                top: 60%;
+                left: 50%;
+                width: 100%;
+                height: 40%;
+            
+            }
+            .big_image{
+                object-fit: cover;
+                height: 40vw;
+                width: 100vw;
+            }
+            .kurumsal_yerlestirme{
+                position: absolute;
+                top:70%;
+                left:50%;
+                z-index: 1;    
+                height: 30%;
+                
+                background-color: rgba(26, 66, 138, 1);
+                }
+            .toplumsal_paragraf h3{
+                font-size: 24px;
+            }
+            .toplumsal_paragraf p{
+                font-size: 18px;
+            }
+            .section-iletisim{
+                padding: 10px 10%;
+            
+            }
+
+    }
+
+    @media screen and (max-width:1100px) {
+        .section-iletisim{
+            padding: 0 0;
+        
+        }
+        
+        .orta{   
+                font-size: 18px;  
+            
+        }
+    }
+
+    @media screen and (max-width:1000px) {
+        .section-iletisim{
+            padding: 0 3%;
+        
+        }
+
+        .sektor_col {
+        
+            min-height: 325px;
+            max-height: 425px;
+        }
+        .sektor_col img{
+            width: 45%;
+            margin-bottom: 10px;
+        }
+        .sektor_col:hover :first-child{
+            padding: 10px 10px 10px 10px;
+            width: 60%;
+            margin-bottom: 8px;
+        
+        }
+        
+        .orta{
+    
+            font-size: 17px;
+
+        }
+
+    
+        
+    }
+
+
+    @media screen and (max-width:900px) {
+        
+        .brand-text-location{
+            position:static;
+            bottom: 10px;
+            font-size: 35px;
+            font-weight: 100;
+            color: darkblue;
+            left: 300px;
+            }
+            
+            
+                
+            .orta{
+    
+                font-size: 16px;
+        
+            }
+            
+
+            .position_of_text{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 100%;
+                height: 50%;
+            
+            }
+            .big_image{
+                object-fit: cover;
+                height: 45vw;
+                width: 100vw;
+            }
+            .kurumsal_yerlestirme{
+                position: absolute;
+                top:65%;
+                left:50%;
+                z-index: 1;    
+                height: 35%;
+                
+                background-color: rgba(26, 66, 138, 1);
+                }
+                .toplumsal_paragraf h3{
+                    font-size: 24px;
+                }
+                .toplumsal_paragraf p{
+                    font-size: 20px;
+                }
+                
+    }
+
+
+    /* @media screen and (max-width:770px) {
+    
+    } */
+
+
+    @media screen and (max-width:700px) {
+        
+        .brand-text-location{
+            position:static;
+            bottom: 10px;
+            font-size: 35px;
+            font-weight: 100;
+            color: darkblue;
+            left: 300px;
+            }
+            .orta{
+                
+                font-size: 15px;
+                
+            }
+
+            .position_of_text{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 100%;
+                height: 50%;
+            
+            }
+            .big_image{
+                object-fit: cover;
+                height: 75vw;
+                width: 100vw;
+            }
+            .kurumsal_yerlestirme{
+                position: absolute;
+                top:60%;
+                left:50%;
+                z-index: 1;    
+                height: 40%;    
+                background-color: rgba(26, 66, 138, 1);
+            }
+            .no-mobile{
+                display: none;
+            }
+            .slide-item-cover{
+        
+                height: 250px;
+                
+                object-fit: cover;
+                
+            }
+            .parmakwidth{
+                width: auto;
+                height: auto;
+                padding-bottom: 10px;
+            }
+            .DortBuyukHeight{
+                height:50% ;
+            }
+            .ProjeGelHeight{
+                height: 50%;
+            }
+
+    }
+
+    @media screen and (max-width:500px) {
+        
+        .brand-text-location{
+            position:static;
+            bottom: 10px;
+            font-size: 35px;
+            font-weight: 100;
+            color: darkblue;
+            left: 300px;
+            }
+            .orta{
+            
+                font-size: 14px;
+    
+                
+            }
+
+            .position_of_text{
+                position: absolute;
+                top: 20%;
+                left: 50%;
+                width: 100%;
+                height: 80%;
+            
+            }
+            .big_image{
+                object-fit: cover;
+                height: 95vw;
+                width: 100vw;
+            }
+            .kurumsal_yerlestirme{
+                position: absolute;
+                top:55%;
+                left:50%;
+                z-index: 1;    
+                height: 45%;
+                
+                background-color: rgba(26, 66, 138, 1);
+                }
+                .myButton{
+                top:60%;
+                width: 150px;
+                height: 60px;
+                font-size: 20px;
+                right:-50px;
+                }
+                .logo{
+                    max-width: 200px;
+                 }
+                 .iletisim_paragraf{
+                    font-size: 12px;
+                    font-family: camptonlight;
+                }
+                .iletisim_paragraf_b{
+                    font-size: 16px;
+                    font-family: camptonlight;
+                }
+    }
+
+    @media screen and (max-width:325px) {
+        
+        .brand-text-location{
+            position:static;
+            bottom: 10px;
+            font-size: 35px;
+            font-weight: 100;
+            color: darkblue;
+            left: 300px;
+            }
+            .orta{
+                position:  absolute;
+            
+                left:50% ;
+                top: 70%;
+                font-size: 15px;
+                background-color: #866F6A;
+                
+            }
+
+            .position_of_text{
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                width: 100%;
+                height: 75%;
+            
+            }
+            .big_image{
+                object-fit: cover;
+                height: 75vw;
+                width: 100vw;
+            }
+            .kurumsal_yerlestirme{
+                position: absolute;
+                top:50%;
+                left:50%;
+                z-index: 1;    
+                height: 50%;
+                
+                background-color: rgba(26, 66, 138, 1);
+            }
+            .logo{
+                max-width: 130px;
+             }
+            
+    }
